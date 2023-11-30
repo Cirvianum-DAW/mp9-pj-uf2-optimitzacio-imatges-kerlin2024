@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <link rel="stylesheet" href="../dist/output.css" />
+  <link rel="stylesheet" href="../src/styles.css" />
+  <link rel="stylesheet" href="../src/contactStyle.css" />
+</head>
+
+<body>
+  <nav>
+    <ul class="flex justify-between items-center p-4 columns-4 h-16  bg-[#FFFFFF] bg-opacity-100 font-bold border-2 border-[#000000]">
+      <li>
+        <img class="w-24 min-w-24" src="/src/img/logo4.png">
+      </li>
+      <li>
+        <a href="/src/index.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">Home</a>
+      </li>
+      <li>
+        <a href="/src/signup.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">SignUp</a>
+      </li>
+      <li>
+        <a href="/src/aboutUs.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">About Us</a>
+      </li>
+      <li>
+        <a href="/src/contactUs.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">Contact</a>
+    </ul>
+  </nav>
+  <div class="flex justify-between items-center w-screen h-screen ">
+    <div class="container mx-auto my-4 lg:px-20 ">
+      <div class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl bg-white ">
+        <div class="flex">
+          <h1 class="font-bold uppercase text-5xl">Envianos un mensaje</h1>
+        </div>
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
+          <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            type="text" placeholder="Nombre" />
+          <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            type="text" placeholder="Apellidos" />
+          <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            type="email" placeholder="Correo Electronico" />
+          <input class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            type="text" placeholder="Telefono de Contacto" />
+        </div>
+        <div class="my-4">
+          <textarea placeholder="Mensaje"
+            class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg"></textarea>
+        </div>
+        <div class="my-2 w-1/2 lg:w-1/4">
+          <button class="uppercase text-sm font-bold bg-blue-900 text-gray-100 p-3 rounded-lg w-full">
+            Enviar Mensaje
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="text-white p-4 bg-opacity-100">
+    <div class="container mx-auto">
+      <div class="text-center">
+        <p>&copy; 2023 Kerlin Murillo. Todos los derechos reservados hacia mi persona.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
