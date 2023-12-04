@@ -2,3 +2,8 @@ body{
     background-image: url("/src/img/background.jpg");
     background-size: cover;
 }
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+  }
