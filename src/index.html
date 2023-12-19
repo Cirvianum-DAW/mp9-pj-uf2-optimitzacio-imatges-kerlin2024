@@ -6,36 +6,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Muebles Kerlin</title>
   <link rel="stylesheet" href="../dist/output.css" />
-  <link rel="stylesheet" href="../src/styles.css" />
-  <link rel="stylesheet" href="../src/style.css" />
+  <link rel="stylesheet" href="../src/styles/styles.css" />
+  <link rel="stylesheet" href="../src/styles/style.css" />
 </head>
 
 <body>
   <nav>
     <ul class="flex justify-between items-center p-4 columns-4 h-16  bg-[#000000] bg-opacity-0 font-bold ">
       <li>
-        <img class="w-24 min-w-24" src="/src/img/logo4.svg">
+        <img class="w-24 min-w-24" src="/src/img/ProjecteUF2/logo4.svg">
       </li>
       <li>
-        <a href="/src/index.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">Home</a>
+        <a href="/src/index.html" class="text-lg mx-auto text-[#000000] hover:text-[#c9ada7]">Home</a>
       </li>
       <li>
-        <a href="/src/signup.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">SignUp</a>
+        <a href="/src/signup.html" class="text-lg mx-auto text-[#000000] hover:text-[#c9ada7]">SignUp</a>
       </li>
       <li>
-        <a href="/src/aboutUs.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">About Us</a>
+        <a href="/src/aboutUs.html" class="text-lg mx-auto text-[#000000] hover:text-[#c9ada7]">About Us</a>
       </li>
       <li>
-        <a href="/src/contactUs.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">Contact</a>
+        <a href="/src/contactUs.html" class="text-lg mx-auto text-[#000000] hover:text-[#c9ada7]">Contact</a>
     </ul>
   </nav>
   <div class="flex flex-nowrap text-white">
-    <img class="border-solid border-2 border-[#000000]" src="/src/img/back.jpg">
+    <!-- <img class="border-solid border-2 border-[#000000]" src="/src/img/ProjecteUF2/back.webp"> -->
+    <picture>
+      <source media="(max-width: 599px)" srcset="/src/img/ProjecteUF2/back2.webp" />
+      <source media="(min-width: 600px)" srcset="/src/img/ProjecteUF2/back.webp" />
+      <img src="/src/img/ProjecteUF2/back.webp" alt="Chris standing up holding his daughter Elva" />
+    </picture>
   </div>
 
   <div class="flex flex-wrap gap-0 md:justify-center lg:justify-between">
     <div class="w-full sm:w-1/2  md:w-1/3  lg:w-1/4 bg-[#ffffff] bg-opacity-0 mb-4 md:mb-0">
-      <div class="w-2/3 mx-auto mt-5"><img src="/src/img/primera1.png"></div>
+      <div class="w-2/3 mx-auto mt-5"><img src="/src/img//ProjecteUF2/primera1.webp"></div>
       <div class="mx-2 text-black text-center">
         <p class="text-xl mt-5">Mueble TV puertas vidrio, negro-marrón Sindvik/Kallviken gris oscuro</p><br>
         <div class="rating ml-36">
@@ -49,7 +54,7 @@
       </div>
     </div>
     <div class="w-full sm:w-1/2  md:w-1/3  lg:w-1/4 bg-[#ffffff] bg-opacity-0 mb-4 md:mb-0">
-      <div class="w-2/3 mx-auto mt-5"><img src="/src/img/segona1.png"></div>
+      <div class="w-2/3 mx-auto mt-5"><img src="/src/img/ProjecteUF2/segona1.webp"></div>
       <div class="mx-2 text-black text-center">
         <p class="text-xl mt-5">Mueble TV puertas vidrio, gris oscuro Västerviken/Sindvik gris oscuro</p><br>
         <div class="rating ml-36">
@@ -63,7 +68,7 @@
       </div>
     </div>
     <div class="w-full sm:w-1/2  md:w-1/3 lg:w-1/4 bg-[#ffffff] bg-opacity-0 mb-4 md:mb-0">
-      <div class="w-2/3 mx-auto mt-5"><img src="/src/img/tercera1.png"></div>
+      <div class="w-2/3 mx-auto mt-5"><img src="/src/img/ProjecteUF2/tercera1.webp"></div>
       <div class="ml-2 text-balck text-center">
         <p class="text-xl mt-5">Mueble TV puertas vidrio, negro-marrón/Lappviken vidrio transparente negro-marrón</p>
         <br>
@@ -78,7 +83,7 @@
       </div>
     </div>
     <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 bg-[#000000] bg-opacity-0">
-      <div class="w-2/3 mx-auto mt-5"><img src="/src/img/cuarta1.png"></div>
+      <div class="w-2/3 mx-auto mt-5"><img src="/src/img/ProjecteUF2/cuarta1.webp"></div>
       <div class="ml-2 text-balck text-center">
         <p class="text-xl mt-5">Mueble almacenaje/TV, negro-marrón</p><br><br>
         <div class="rating ml-36">
@@ -92,7 +97,7 @@
       </div>
     </div>
   </div>
-  <footer class="bg-blue text-dark p-4 bg-opacity-100">
+  <footer class="bg-blue text-dark p-4 bg-[#E7E7E9] bg-opacity-100">
     <div class="container mx-auto">
       <div class="text-center">
         <p>&copy; 2023 Kerlin Murillo. Todos los derechos reservados hacia mi persona.</p>
@@ -104,10 +109,10 @@
             <a href="/src/signup.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">Sign Up</a>
           </li>
           <li>
-            <a href="/src/about.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">About</a>
+            <a href="/src/aboutUs.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">About</a>
           </li>
           <li>
-            <a href="/src/contact.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">Contact</a>
+            <a href="/src/contactUs.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">Contact</a>
           </li>
         </ul>
       </div>
