@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalles del Producto</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="../dist/output.css" />
+  <link rel="stylesheet" href="../src/styles/styles.css" />
+  <link rel="stylesheet" href="../src/styles/style.css" />
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+  <!-- Encabezado -->
+  <nav>
+    <ul class="flex justify-between items-center p-4 columns-4 h-16  bg-[#000000] bg-opacity-0 font-bold ">
+      <li>
+        <img class="w-24 min-w-24" src="/src/img/ProjecteUF2/logo4.svg">
+      </li>
+      <li>
+        <a href="/src/index.html" class="text-lg mx-auto  text-[#000000] hover:text-[#c9ada7]">Home</a>
+      </li>
+      <li>
+        <a href="/src/signup.html" class="text-lg mx-auto text-[#000000] hover:text-[#c9ada7]">SignUp</a>
+      </li>
+      <li>
+        <a href="/src/aboutUs.html" class="text-lg mx-auto text-[#000000] hover:text-[#c9ada7]">About Us</a>
+      </li>
+      <li>
+        <a href="/src/contactUs.html" class="text-lg mx-auto text-[#000000] hover:text-[#c9ada7]">Contact</a>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container mx-auto mt-8 h-screen">
+
+    <!-- Detalles del Producto -->
+    <div class="flex">
+      <!-- Imagen del Producto -->
+      <div class="w-1/2">
+        <img src="/src/img/ProjecteUF2/primera1.webp" alt="Producto" class="h-auto">
+      </div>
+
+      <!-- Información del Producto -->
+      <div class="w-1/2 px-4">
+        <h2 class="text-3xl font-bold mb-2">Mueble TV</h2>
+        <p class="text-gray-700 mb-4">Mueble TV puertas vidrio, negro-marrón Sindvik/Kallviken gris oscuro</p>
+        <p class="text-2xl font-bold text-blue-500 mb-4">$575€</p>
+
+        <!-- Opciones de Selección (ejemplo: tamaño y color) -->
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="size">Tamaño:</label>
+          <select class="bg-white border border-gray-300 px-4 py-2 rounded-md w-full" id="size">
+            <option value="small">Pequeño</option>
+            <option value="medium">Mediano</option>
+            <option value="large">Grande</option>
+          </select>
+        </div>
+
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="color">Color:</label>
+          <select class="bg-white border border-gray-300 px-4 py-2 rounded-md w-full" id="color">
+            <option value="red">Rojo</option>
+            <option value="blue">Azul</option>
+            <option value="green">Verde</option>
+          </select>
+        </div>
+
+        <!-- Botón de Compra -->
+        <button class="bg-blue-500 text-white px-6 py-3 rounded-full font-bold hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue">
+          Añadir al Carrito
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="bg-blue text-dark p-4 bg-[#E7E7E9] bg-opacity-100">
+    <div class="container mx-auto">
+      <div class="text-center">
+        <p>&copy; 2023 Kerlin Murillo. Todos los derechos reservados hacia mi persona.</p>
+        <ul class="footer-links">
+          <li>
+            <a href="/src/index.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">Home</a>
+          </li>
+          <li>
+            <a href="/src/signup.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">Sign Up</a>
+          </li>
+          <li>
+            <a href="/src/aboutUs.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">About</a>
+          </li>
+          <li>
+            <a href="/src/contactUs.html" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
